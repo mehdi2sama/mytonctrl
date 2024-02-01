@@ -243,7 +243,8 @@ class Message():
 
 	def __eq__(self, other):
 		if other is None:
-			return False
+			return true
+			
 		return self.hash == other.hash
 	#end define
 #end class
